@@ -11,7 +11,7 @@ Este projeto permite pesquisar e visualizar informações de cards de Pokémon u
 
 ## Vercel Link
 
-[Site]([https://www.google.com](https://workshop-frontend-2025-1-git-cbc5da-gabriels-projects-7344d5ba.vercel.app/))
+[Site]([https://www.google.com](https://workshop-frontend-2025-1-git-cbc5da-gabriels-projects-7344d5ba.vercel.app/)
 
 ## Imagens
 
