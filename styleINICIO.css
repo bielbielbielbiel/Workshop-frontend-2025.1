@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-hollow');
+                         
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #FFD80D;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color:#F04037;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1px;
+    font-size: 30px;
+    font-family: 'Pokemon Hollow', sans-serif;
+    color:#F04037;
+    letter-spacing: 5px;  
+}
+
+.main {
+	padding: 30px;
+}
+
+.sliderOrganização {
+	position: relative;
+	max-width: 800px;
+	margin: auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	border-radius: 10px;
+}
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.sliderPonto {
+	display: flex;
+	column-gap: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.sliderPonto a {
+	width: 10px;
+	height: 10px;
+    border-radius: 8px;
+	background-color: #fff;
+}
