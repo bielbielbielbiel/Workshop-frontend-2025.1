@@ -15,4 +15,4 @@ Este projeto permite pesquisar e visualizar informações de cards de Pokémon u
 
 ## Imagens
 
-<img src="">
+![printInicio](https://github.com/user-attachments/assets/3c54a8ba-4c8b-47db-a46e-5491ab5d13ca)
